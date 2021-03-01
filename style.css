@@ -1,0 +1,30 @@
+ *{
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+
+ .conteiner{
+     padding-bottom: 30px;
+     margin: auto;
+     width: 50%;
+     height: 660px;
+     background-color: aquamarine;
+ }
+
+ .row{
+    width: 100%;
+    height: calc(630px / 3 );
+    background-color: goldenrod;
+    padding: 0 5px 0 10px;
+    margin: 15px 0px 15px 0px; 
+}
+.card{
+    width: calc(100% / 4 - 15px);
+    height: 100%;
+    background-color: yellow;
+    margin: 0px 5px 0px 5px;  
+    display: inline-block;
+    border-radius: 20px;
+}
+
